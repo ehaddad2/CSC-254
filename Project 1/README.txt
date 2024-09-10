@@ -20,4 +20,4 @@ Part 4: OCaml Implementation
     Run: cd into "Project 1 and run "ocaml part4.ml n", where "n" is an integer for calculating the specific triangle
 
 Part 5: LISP Implementation
-    Run: cd into "Project 1 and run "sbcl --script part5.lsp n", where "n" is an integer for calculating the specific triangle
+    Run: java -jar /"PATHTO"/abcl.jar --load part5.lisp --eval '(main)' -- n 

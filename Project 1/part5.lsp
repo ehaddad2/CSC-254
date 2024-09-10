@@ -15,9 +15,7 @@
     (print-row i 0)
     (format t "~%")  
     (print-triangle n (1+ i))))
-    
-(defun main (argv)
-  (let ((n (parse-integer (first argv))))
-    (print-triangle n 0))) 
 
-(main (cdr *posix-argv*))
+(defun main ()
+  (when *command-line-argument-list*
+    (print-triangle (parse-integer (first *command-line-argument-list*)) 0)))
