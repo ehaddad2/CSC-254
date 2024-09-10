@@ -1,5 +1,5 @@
 CSC 254 Project 1 (Pascal's Triangle)
-Elias Haddad, Mason Wischhover
+Elias Haddad (nedID: ehaddad2), Mason Wischhover (nedID: mwischho)
 
 Part 1: Rust Implementation
 
@@ -17,7 +17,7 @@ Part 3: Java Implementation
     Run: run "java part3.java n", where "n" is an integer for calculating the specific triangle
 
 Part 4: OCaml Implementation
-    Run: "ocaml part4.ml n", where "n" is an integer for calculating the specific triangle
+    Run: cd into "Project 1 and run "ocaml part4.ml n", where "n" is an integer for calculating the specific triangle
 
 Part 5: LISP Implementation
-    Run: "sbcl --script part5.lsp n", where "n" is an integer for calculating the specific triangle
+    Run: cd into "Project 1 and run "sbcl --script part5.lsp n", where "n" is an integer for calculating the specific triangle
