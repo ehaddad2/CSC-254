@@ -3,25 +3,21 @@ Elias Haddad, Mason Wischhover
 
 Part 1: Rust Implementation
 
-    Compile:
-    Run: run 
+    Compile: cd into "Project 1" and run "rustc part1.rs"
+    Run: "./part1 n", where "n" is an integer for calculating the specific triangle
 
 Part 2: C++ Implementation
 
-    Compile: cd into "Project 1" and run g++ part2.cpp -o part2 -Wall -Werror
-    Run: run ./part2 n, where n is an integer for calculating the specific triangle
+    Compile: cd into "Project 1" and run "g++ part2.cpp -o part2 -Wall -Werror"
+    Run: run "./part2 n", where "n" is an integer for calculating the specific triangle
 
 Part 3: Java Implementation
 
-    Compile: 
-    Run: 
+    Compile: cd into "Project 1" and run "javac part3.java"
+    Run: run "java part3.java n", where "n" is an integer for calculating the specific triangle
 
 Part 4: OCaml Implementation
-
-    Compile: 
-    Run: 
+    Run: "ocaml part4.ml n", where "n" is an integer for calculating the specific triangle
 
 Part 5: LISP Implementation
-
-    Compile: 
-    Run: 
+    Run: "sbcl --script part5.lsp n", where "n" is an integer for calculating the specific triangle
